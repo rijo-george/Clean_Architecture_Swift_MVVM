@@ -20,7 +20,6 @@
 		D602F733248CBDD600789A90 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F732248CBDD600789A90 /* LoginViewController.swift */; };
 		D602F735248CBE9F00789A90 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F734248CBE9F00789A90 /* LoginViewModel.swift */; };
 		D602F737248CCA7000789A90 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F736248CCA7000789A90 /* LoginRepository.swift */; };
-		D602F759248CD5D000789A90 /* UserDTO+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F758248CD5D000789A90 /* UserDTO+Mapping.swift */; };
 		D602F778248D3F4900789A90 /* LoginDTO+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F770248D3F4900789A90 /* LoginDTO+Mapping.swift */; };
 		D602F78A248E320700789A90 /* LoginServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F789248E320700789A90 /* LoginServices.swift */; };
 		D602F78C248E339100789A90 /* Encodable+convertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F78B248E339100789A90 /* Encodable+convertions.swift */; };
@@ -73,7 +72,6 @@
 		D602F732248CBDD600789A90 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D602F734248CBE9F00789A90 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		D602F736248CCA7000789A90 /* LoginRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
-		D602F758248CD5D000789A90 /* UserDTO+Mapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDTO+Mapping.swift"; sourceTree = "<group>"; };
 		D602F770248D3F4900789A90 /* LoginDTO+Mapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginDTO+Mapping.swift"; sourceTree = "<group>"; };
 		D602F789248E320700789A90 /* LoginServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServices.swift; sourceTree = "<group>"; };
 		D602F78B248E339100789A90 /* Encodable+convertions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+convertions.swift"; sourceTree = "<group>"; };
@@ -308,7 +306,6 @@
 			isa = PBXGroup;
 			children = (
 				D602F770248D3F4900789A90 /* LoginDTO+Mapping.swift */,
-				D602F758248CD5D000789A90 /* UserDTO+Mapping.swift */,
 			);
 			path = DataMapping;
 			sourceTree = "<group>";
@@ -538,7 +535,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D602F79E248E49C900789A90 /* BolderSession.swift in Sources */,
-				D602F759248CD5D000789A90 /* UserDTO+Mapping.swift in Sources */,
 				D602F78C248E339100789A90 /* Encodable+convertions.swift in Sources */,
 				D602F733248CBDD600789A90 /* LoginViewController.swift in Sources */,
 				D602F78A248E320700789A90 /* LoginServices.swift in Sources */,
