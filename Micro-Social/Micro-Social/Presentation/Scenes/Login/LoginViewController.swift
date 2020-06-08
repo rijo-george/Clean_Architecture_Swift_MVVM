@@ -11,11 +11,6 @@ import UIKit
 class LoginViewController: UIViewController, Storyboarded {
     weak var coordinator: OnboardingCoordinator?
     var viewModel: LoginViewModelAPI!
-    static func create(with viewModel: LoginViewModelAPI) -> LoginViewController{
-        let view = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoginViewControllerIdentifier") as! LoginViewController
-        view.viewModel = viewModel
-        return view
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

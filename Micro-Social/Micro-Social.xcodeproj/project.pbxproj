@@ -179,7 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				D602F6E3248CB16B00789A90 /* AppDelegate.swift */,
-				D602F7A1248E655100789A90 /* Coordinator */,
+				D602F7A1248E655100789A90 /* AppFlowCoordinator */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -351,15 +351,15 @@
 			path = Session;
 			sourceTree = "<group>";
 		};
-		D602F7A1248E655100789A90 /* Coordinator */ = {
+		D602F7A1248E655100789A90 /* AppFlowCoordinator */ = {
 			isa = PBXGroup;
 			children = (
 				D602F7A2248E655100789A90 /* Storyboarded.swift */,
+				D602F7A5248E655100789A90 /* Coordinator.swift */,
 				D602F7A3248E655100789A90 /* OnboardingCoordinator.swift */,
 				D602F7A4248E655100789A90 /* UserProfileCoordinator.swift */,
-				D602F7A5248E655100789A90 /* Coordinator.swift */,
 			);
-			path = Coordinator;
+			path = AppFlowCoordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
