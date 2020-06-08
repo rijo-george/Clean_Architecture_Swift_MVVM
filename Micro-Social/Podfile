@@ -1,0 +1,21 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '10.3'
+
+inhibit_all_warnings!
+
+#needed by NYTPhotoViewer
+use_frameworks!
+
+def common_pods
+	pod 'Alamofire', '~> 5.0.0-beta.3'
+  pod 'Kingfisher'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'SAMKeychain'
+end
+
+target :'Micro-Social' do
+  common_pods
+end
+
