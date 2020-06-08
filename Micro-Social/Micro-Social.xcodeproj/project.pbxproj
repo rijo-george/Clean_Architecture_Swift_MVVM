@@ -13,7 +13,6 @@
 		D602F6ED248CB16C00789A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D602F6EC248CB16C00789A90 /* Assets.xcassets */; };
 		D602F6F0248CB16C00789A90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D602F6EE248CB16C00789A90 /* LaunchScreen.storyboard */; };
 		D602F6FB248CB16C00789A90 /* Skelton_App_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F6FA248CB16C00789A90 /* Skelton_App_SwiftTests.swift */; };
-		D602F706248CB16C00789A90 /* Skelton_App_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F705248CB16C00789A90 /* Skelton_App_SwiftUITests.swift */; };
 		D602F729248CB66F00789A90 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F728248CB66F00789A90 /* User.swift */; };
 		D602F72B248CB6EF00789A90 /* UserAuthenticationUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F72A248CB6EF00789A90 /* UserAuthenticationUsecase.swift */; };
 		D602F72D248CB86300789A90 /* UserAuthenticationRepositoryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F72C248CB86300789A90 /* UserAuthenticationRepositoryAPI.swift */; };
@@ -63,8 +62,6 @@
 		D602F6FA248CB16C00789A90 /* Skelton_App_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skelton_App_SwiftTests.swift; sourceTree = "<group>"; };
 		D602F6FC248CB16C00789A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D602F701248CB16C00789A90 /* Micro-SocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Micro-SocialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D602F705248CB16C00789A90 /* Skelton_App_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skelton_App_SwiftUITests.swift; sourceTree = "<group>"; };
-		D602F707248CB16C00789A90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D602F728248CB66F00789A90 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D602F72A248CB6EF00789A90 /* UserAuthenticationUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthenticationUsecase.swift; sourceTree = "<group>"; };
 		D602F72C248CB86300789A90 /* UserAuthenticationRepositoryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthenticationRepositoryAPI.swift; sourceTree = "<group>"; };
@@ -131,7 +128,6 @@
 			children = (
 				D602F6E2248CB16B00789A90 /* Micro-Social */,
 				D602F6F9248CB16C00789A90 /* Micro-SocialTests */,
-				D602F704248CB16C00789A90 /* Skelton_App_SwiftUITests */,
 				D602F6E1248CB16B00789A90 /* Products */,
 				0A1B1BFCD88EDD580D0C8F93 /* Pods */,
 				65F4A008BBB7072343158CD9 /* Frameworks */,
@@ -169,15 +165,6 @@
 				D602F6FC248CB16C00789A90 /* Info.plist */,
 			);
 			path = "Micro-SocialTests";
-			sourceTree = "<group>";
-		};
-		D602F704248CB16C00789A90 /* Skelton_App_SwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D602F705248CB16C00789A90 /* Skelton_App_SwiftUITests.swift */,
-				D602F707248CB16C00789A90 /* Info.plist */,
-			);
-			path = Skelton_App_SwiftUITests;
 			sourceTree = "<group>";
 		};
 		D602F713248CB18900789A90 /* Application */ = {
@@ -562,7 +549,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D602F706248CB16C00789A90 /* Skelton_App_SwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
