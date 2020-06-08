@@ -29,6 +29,10 @@
 		D602F79E248E49C900789A90 /* BolderSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F799248E49C900789A90 /* BolderSession.swift */; };
 		D602F79F248E49C900789A90 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F79A248E49C900789A90 /* Token.swift */; };
 		D602F7A0248E49C900789A90 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F79B248E49C900789A90 /* NetworkService.swift */; };
+		D602F7A6248E655100789A90 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F7A2248E655100789A90 /* Storyboarded.swift */; };
+		D602F7A7248E655100789A90 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F7A3248E655100789A90 /* OnboardingCoordinator.swift */; };
+		D602F7A8248E655100789A90 /* UserProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F7A4248E655100789A90 /* UserProfileCoordinator.swift */; };
+		D602F7A9248E655100789A90 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D602F7A5248E655100789A90 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +82,10 @@
 		D602F799248E49C900789A90 /* BolderSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BolderSession.swift; sourceTree = "<group>"; };
 		D602F79A248E49C900789A90 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		D602F79B248E49C900789A90 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		D602F7A2248E655100789A90 /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		D602F7A3248E655100789A90 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		D602F7A4248E655100789A90 /* UserProfileCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileCoordinator.swift; sourceTree = "<group>"; };
+		D602F7A5248E655100789A90 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				D602F6E3248CB16B00789A90 /* AppDelegate.swift */,
+				D602F7A1248E655100789A90 /* Coordinator */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -340,6 +349,17 @@
 				D602F79A248E49C900789A90 /* Token.swift */,
 			);
 			path = Session;
+			sourceTree = "<group>";
+		};
+		D602F7A1248E655100789A90 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				D602F7A2248E655100789A90 /* Storyboarded.swift */,
+				D602F7A3248E655100789A90 /* OnboardingCoordinator.swift */,
+				D602F7A4248E655100789A90 /* UserProfileCoordinator.swift */,
+				D602F7A5248E655100789A90 /* Coordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -522,7 +542,9 @@
 				D602F78C248E339100789A90 /* Encodable+convertions.swift in Sources */,
 				D602F733248CBDD600789A90 /* LoginViewController.swift in Sources */,
 				D602F78A248E320700789A90 /* LoginServices.swift in Sources */,
+				D602F7A6248E655100789A90 /* Storyboarded.swift in Sources */,
 				D602F7A0248E49C900789A90 /* NetworkService.swift in Sources */,
+				D602F7A8248E655100789A90 /* UserProfileCoordinator.swift in Sources */,
 				D602F737248CCA7000789A90 /* LoginRepository.swift in Sources */,
 				D602F79C248E49C900789A90 /* Keychain+Helper.swift in Sources */,
 				D602F79F248E49C900789A90 /* Token.swift in Sources */,
@@ -534,6 +556,8 @@
 				D602F735248CBE9F00789A90 /* LoginViewModel.swift in Sources */,
 				D602F778248D3F4900789A90 /* LoginDTO+Mapping.swift in Sources */,
 				D602F72D248CB86300789A90 /* LoginRepositoryAPI.swift in Sources */,
+				D602F7A7248E655100789A90 /* OnboardingCoordinator.swift in Sources */,
+				D602F7A9248E655100789A90 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
