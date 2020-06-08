@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol UserAuthenticationRepositoryAPI{
+protocol LoginRepositoryAPI{
     func loginUser(request: LoginUsingEmailRequest,
                    completion: @escaping (User?, Error?) -> Void)
     func loginUser(request: LoginUsingPhoneRequest,

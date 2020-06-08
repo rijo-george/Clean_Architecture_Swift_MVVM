@@ -10,9 +10,8 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-var window: UIWindow?
+    
+    var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let bounds = UIScreen.main.bounds
         self.window = UIWindow(frame: bounds)
@@ -22,12 +21,11 @@ var window: UIWindow?
     }
     
     private func initialViewController() -> LoginViewController {
-        let repository = UserAuthenticationRepository()
-        let usecase = LoginUseUsercase(repository: repository)
+        let repository = LoginRepository()
+        let usecase = LoginUsecase(repository: repository)
         let viewModel = LoginViewModel(loginUseCase: usecase)
         let view = LoginViewController.create(with: viewModel)
         return view
     }
-
 }
 

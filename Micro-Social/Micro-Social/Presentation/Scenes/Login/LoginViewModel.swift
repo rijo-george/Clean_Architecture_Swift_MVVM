@@ -24,9 +24,9 @@ class LoginViewModel: LoginViewModelAPI {
     var isRefreshing: ((Bool) -> Void)?
     var loginSucceeded: ((User) -> Void)?
     var loginFailed: ((String) -> Void)?
-    var loginUseCase: LoginUserUsecaseAPI!
+    var loginUseCase: LoginUseCaseAPI!
     
-    init(loginUseCase: LoginUserUsecaseAPI) {
+    init(loginUseCase: LoginUseCaseAPI) {
         self.loginUseCase = loginUseCase
     }
 }

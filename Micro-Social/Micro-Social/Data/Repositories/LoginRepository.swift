@@ -8,10 +8,10 @@
 
 import Foundation
 
-struct UserAuthenticationRepository: UserAuthenticationRepositoryAPI{
+struct LoginRepository: LoginRepositoryAPI{
     func loginUser(request: LoginUsingEmailRequest,
                    completion: @escaping (User?, Error?) -> Void) {
-        UserAuthenticationServices.loginUsingEmail(params: request.dictionary) { (response, error) in
+        LoginServices.loginUsingEmail(params: request.dictionary) { (response, error) in
             if let error = error {
                 completion(nil,error)
                 return

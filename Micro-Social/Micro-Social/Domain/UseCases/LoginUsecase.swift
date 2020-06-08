@@ -1,25 +1,16 @@
-//
-//  LoginUserUsecase.swift
-//  Skelton_App_Swift
-//
-//  Created by Rijo George on 07/06/20.
-//  Copyright © 2020 Rijo George. All rights reserved.
-//
-
 import Foundation
 
-protocol LoginUserUsecaseAPI {
+protocol LoginUseCaseAPI {
     func execute(request: LoginUsingEmailRequest,
                  completion:  @escaping (User?, Error?) -> Void)
     func execute(request: LoginUsingPhoneRequest,
                  completion:  @escaping (User?, Error?) -> Void)
 }
 
-
-final class LoginUseUsercase: LoginUserUsecaseAPI{
-    let repository: UserAuthenticationRepositoryAPI
+final class LoginUsecase: LoginUseCaseAPI{
+    let repository: LoginRepositoryAPI
     
-    init(repository: UserAuthenticationRepositoryAPI) {
+    init(repository: LoginRepositoryAPI) {
         self.repository = repository
     }
     

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class UserAuthenticationServices: NetworkService{
+class LoginServices: NetworkService{
     
     static func loginUsingEmail(params:[String:Any]?, completion:@escaping(_ result:LoginDTO?,_ error:Error?) -> Void){
         let url = "https://reqres.in/api/login"
