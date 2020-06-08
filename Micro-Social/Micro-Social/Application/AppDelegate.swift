@@ -14,19 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-//
         let bounds = UIScreen.main.bounds
         self.window = UIWindow(frame: bounds)
-//        self.window?.rootViewController = initialViewController()
-//        self.window?.makeKeyAndVisible()
-//              window = UIWindow(windowScene: winScene)
-              window?.rootViewController = initialViewController()
-              window?.makeKeyAndVisible()
-       
-        
+        window?.rootViewController = initialViewController()
+        window?.makeKeyAndVisible()
         return true
     }
-
     
     private func initialViewController() -> LoginViewController {
         let repository = UserAuthenticationRepository()

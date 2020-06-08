@@ -158,7 +158,6 @@
 				D602F717248CB1C300789A90 /* Infrastructure */,
 				D602F719248CB1E100789A90 /* Common */,
 				D602F71A248CB1EC00789A90 /* Resources */,
-				D602F6E9248CB16B00789A90 /* Main.storyboard */,
 			);
 			path = "Micro-Social";
 			sourceTree = "<group>";
@@ -237,6 +236,7 @@
 		D602F71A248CB1EC00789A90 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D602F6E9248CB16B00789A90 /* Main.storyboard */,
 				D602F6F1248CB16C00789A90 /* Info.plist */,
 				D602F6EE248CB16C00789A90 /* LaunchScreen.storyboard */,
 				D602F6EC248CB16C00789A90 /* Assets.xcassets */,
