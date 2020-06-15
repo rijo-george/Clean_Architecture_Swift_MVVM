@@ -9,9 +9,9 @@
 import Foundation
 
 public class LoginDTO:Codable{
-    var id : String?
-    var name : String?
-    var imageUrl : String?
+    var id : String? = "1"
+    var name : String? = "Rijo George"
+    var imageUrl : String? = "http://aws.cognito.image.png"
     var token : String?
     
     enum CodingKeys: String, CodingKey {

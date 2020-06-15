@@ -34,6 +34,7 @@ class LoginViewController: UIViewController, Storyboarded {
     }
     
     func loginUser(){
-        viewModel.loginUser(email: "eve.holt@reqres.in", password: "cityslicka")
+        viewModel.loginUser(email: "eve.holt@reqres.in",
+                            password: "cityslicka")
     }
 }
