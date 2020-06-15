@@ -12,4 +12,5 @@ struct User{
     let id: String
     let name: String
     let imageUrl: String
+    let token: String
 }

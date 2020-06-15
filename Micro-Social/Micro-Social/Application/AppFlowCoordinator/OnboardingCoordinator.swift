@@ -12,7 +12,8 @@ class OnboardingCoordinator:  NSObject, Coordinator, UINavigationControllerDeleg
     func start() {
         navigationController.delegate = self
         navigationController.navigationBar.isHidden = true
-        let repository = LoginRepository()
+        let datasource = LoginDatasource()
+        let repository = LoginRepository(datasource: datasource)
         let usecase = LoginUsecase(repository: repository)
         let viewModel = LoginViewModel(loginUseCase: usecase)
         let viewController =  LoginViewController.instantiate()

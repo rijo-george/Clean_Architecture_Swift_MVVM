@@ -9,6 +9,9 @@
 import Foundation
 
 public class LoginDTO:Codable{
+    var id : String?
+    var name : String?
+    var imageUrl : String?
     var token : String?
     
     enum CodingKeys: String, CodingKey {
@@ -17,7 +20,10 @@ public class LoginDTO:Codable{
  }
 
 extension LoginDTO{
-    func toDomain() -> User{
-        return .init(id: "1", name: "Rijo", imageUrl: "\(token ?? "no token")")
+    func toDomain() -> User?{
+        guard let id = id, let name = name, let token = token, let imageUrl = imageUrl else{
+            return nil
+        }
+        return .init(id: id, name: name, imageUrl: imageUrl, token: token)
     }
 }
